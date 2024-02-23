@@ -2,16 +2,20 @@
 
 @font-face{
     font-family: 'Fraunces';
-    font-style:normal;
+    font-style: normal;
     font-weight: 100 900;
-    src:url('src/fonts/Fraunces[SOFT,WONK,opsz,wght].ttf') format('truetype');
+    src:url('/fonts/Fraunces[SOFT,WONK,opsz,wght].ttf')format('truetype');
+    font-variation-settings: "opsz" 900,"SOFT" 100, "WONK" 0;
+    font-weight: 450;
 }
 
 @font-face {
     font-family: 'Fraunces';
     font-style: italic;
-    font-weight:100 900;
-    src:url('src/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf') format('truetype');
+    font-weight: 100 900;
+    src:url('/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf') format('truetype');
+    font-variation-settings: "opsz" 20, "SOFT" 200, "WONK" 1;
+    font-weight:200;
 }
 
 $font: "Fraunces", serif;
