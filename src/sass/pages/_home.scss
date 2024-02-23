@@ -7,3 +7,15 @@ body {
   font-family: type.$font;
   background-color: var.$bg-very-light;
 }
+.header__title{
+  font-variation-settings: "opsz" 50,"SOFT" 100, "WONK" 1;
+  font-weight: 500;
+}
+p.header__desc--first{
+  font-variation-settings: "opsz" 40,"SOFT" 50, "WONK" 1;
+  font-weight: 500;
+}
+.header__desc{
+  font-variation-settings: "opsz" 40,"SOFT" 70, "WONK" 1;
+  font-weight: 200;
+}
